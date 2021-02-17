@@ -72,10 +72,10 @@
  * アロー関数
  */
 
- // 従来の関数
- // function func1(str) {
- //   return str;
- // }
+// 従来の関数
+// function func1(str) {
+//   return str;
+// }
 //  const func1 = function(str) {
 //    return str;
 //  }
@@ -107,8 +107,15 @@
 // const message2 = `名前は${name}です。年齢は${age}歳です。`;
 // console.log(message2);
 
-const myProfile = ['nakashi', 34];
+// const myProfile = ['nakashi', 34];
+//
+// const [name, age]  = myProfile;
+// const message3 = `私の名前は${name}です。年齢は${age}歳です。`;
+// console.log(message3)
 
-const [name, age]  = myProfile;
-const message3 = `私の名前は${name}です。年齢は${age}歳です。`;
-console.log(message3)
+
+/**
+ * デフォルト値、引数など
+ */
+const sayHello = (name = "satoshi") => console.log(`こんにちは!${name}さん!`);
+sayHello("ayano");
