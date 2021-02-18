@@ -157,6 +157,37 @@
 // console.log(arr4);
 
 /**
- * mapやfilter
+ * mapやfilterを使った配列処理
  */
- 
+// const nameArr = ["tanaka", "yamada", "nakashi"];
+
+// 従来
+// for (let index = 0; index < nameArr.length; index++) {
+//     console.log(nameArr[index]);
+// };
+
+// mapを使った処理
+// const nameArr2 = nameArr.map((name) => {
+//   return name;
+// })
+// console.log(nameArr2)
+
+// nameArr.map((name, index) => console.log(name, index));
+
+// filterをつかった処理
+// const numArr = [1, 2, 3, 4, 5];
+//
+// const newNumArr = numArr.filter((num) => {
+//   return num % 2 === 1;
+// })
+// console.log(newNumArr)
+
+// 実践的なもの
+// const newNameArr = nameArr.map((name) => {
+//   if (name === "nakashi") {
+//     return name
+//   } else {
+//     return `${name}さん`
+//   }
+// })
+// console.log(newNameArr)
