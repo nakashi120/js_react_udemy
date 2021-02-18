@@ -208,3 +208,28 @@
 //   return num1 + num2 > 100 ? '100を超えています。' : '許容範囲内です。';
 // }
 // console.log(checkSum(40, 50))
+
+/**
+ * 論理演算子の本当の意味を知ろう
+ */
+
+ // const flag1 = true;
+ // const flag2 = true;
+ //
+ // if (flag1 || flag2) {
+ //   console.log("1か2はTrueです。")
+ // }
+ //
+ // if (flag1 && flag2) {
+ //   console.log("1も2もTrueです。")
+ // }
+
+// ||は左側がfalseなら右側を返す,左側がtrueなら左側を返す
+// const num = null;
+// const fee = num || "金額未設定です";
+// console.log(fee);
+
+// &&は左側がtrueなら右側を返す、左側がfalseなら左側を返す
+// const num = 100;
+// const fee = num && "金額が設定されています";
+// console.log(fee)
